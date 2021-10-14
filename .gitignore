@@ -14,9 +14,6 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/vagrant
 
-mutagen.yml.lock
-.env
-
 /.bundle/
 /.yardoc
 /_yardoc/
