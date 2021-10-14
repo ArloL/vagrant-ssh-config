@@ -16,3 +16,12 @@
 
 mutagen.yml.lock
 .env
+
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/

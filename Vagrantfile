@@ -9,27 +9,13 @@ Vagrant.configure("2") do |config|
     vb.linked_clone = true
   end
 
-  config.trigger.after :up, :reload, :resume do |trigger|
-    trigger.ruby do |env,machine|
-      config = `vagrant ssh-config #{machine.name} --host #{ENV["VAGRANT_SSH_ALIAS"]}`
-      File.write("#{env.local_data_path}/ssh-config", config)
-      line = "Include #{env.local_data_path}/ssh-config"
-      file = "#{env.home_path}/ssh-configs"
-      if File.exist?(file)
-        if ! File.foreach(file).grep(/#{line}/).any?
-          File.open(file, "a+") { |f| f.puts(line) }
-        end
-      else
-        File.write(file, line)
-      end
-    end
-  end
-
   config.vm.network "forwarded_port", guest: 62225, host: 62225
 
   config.vm.provision "docker" do |d|
     d.post_install_provision "shell", inline: $dockerOpenTcpPortScript
   end
+
+  config.vagrant.plugins = "vagrant-ssh-config"
 
 end
 
