@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: 1b68be9d529880dd5c87244b5dd67fa285b26f21
+  revision: 78eb1dcad09522eef7a02b079e498e09d81bb8fd
   specs:
-    vagrant (2.3.4.dev)
+    vagrant (2.3.5.dev)
       bcrypt_pbkdf (~> 1.1)
       childprocess (~> 4.1.0)
       ed25519 (~> 1.3.0)
@@ -41,13 +41,13 @@ GEM
     builder (3.2.4)
     childprocess (4.1.0)
     concurrent-ruby (1.1.10)
-    date (3.3.0)
+    date (3.3.1)
     ed25519 (1.3.0)
     erubi (1.11.0)
-    excon (0.94.0)
+    excon (0.95.0)
     ffi (1.15.5)
-    google-protobuf (3.21.10-x86_64-darwin)
-    google-protobuf (3.21.10-x86_64-linux)
+    google-protobuf (3.21.11-x86_64-darwin)
+    google-protobuf (3.21.11-x86_64-linux)
     googleapis-common-protos-types (1.4.0)
       google-protobuf (~> 3.14)
     grpc (1.50.0-x86_64-darwin)
@@ -81,7 +81,7 @@ GEM
     net-ftp (0.2.0)
       net-protocol
       time
-    net-protocol (0.2.0)
+    net-protocol (0.2.1)
       timeout
     net-scp (4.0.0)
       net-ssh (>= 2.6.5, < 8.0.0)
