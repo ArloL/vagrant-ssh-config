@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: 78eb1dcad09522eef7a02b079e498e09d81bb8fd
+  revision: e1407219e5cee149f3951bfe48cb0a96ba4661cc
   specs:
     vagrant (2.3.5.dev)
       bcrypt_pbkdf (~> 1.1)
@@ -104,7 +104,7 @@ GEM
     rubyntlm (0.6.3)
     rubyzip (2.3.2)
     stream (0.5.5)
-    time (0.2.0)
+    time (0.2.1)
       date
     timeout (0.3.1)
     vagrant_cloud (3.0.5)
