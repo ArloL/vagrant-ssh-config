@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: 8cc21d048d69bcd1cd6f0b3fb7c12dc4095a38f6
+  revision: 57562c2d7549ee7885b4306de3bd3a0879af0807
   specs:
     vagrant (2.3.5.dev)
       bcrypt_pbkdf (~> 1.1)
@@ -76,7 +76,7 @@ GEM
       multi_json (~> 1.14)
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2022.0105)
+    mime-types-data (3.2023.0218.1)
     multi_json (1.15.0)
     net-ftp (0.2.0)
       net-protocol
