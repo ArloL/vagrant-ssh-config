@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: f056c293b5d4ebf9fad4d4985c40e4837ff434ce
+  revision: 848f2a7f6207e1b24aff55b68b3b01ee0c92136b
   specs:
     vagrant (2.3.8.dev)
       bcrypt_pbkdf (~> 1.1)
@@ -106,7 +106,7 @@ GEM
     stream (0.5.5)
     time (0.2.2)
       date
-    timeout (0.3.2)
+    timeout (0.4.0)
     vagrant_cloud (3.0.5)
       excon (~> 0.73)
       log4r (~> 1.1.10)
