@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: 2809ef979aff2531ad5739ce34ac1575a268e7ff
+  revision: d5f12fd7ec1e3d096b7c499c030b040e8c0039e7
   specs:
     vagrant (2.3.8.dev)
       bcrypt_pbkdf (~> 1.1)
@@ -23,7 +23,7 @@ GIT
       rexml (~> 3.2)
       rgl (~> 0.5.10)
       rubyzip (~> 2.3.2)
-      vagrant_cloud (~> 3.0.5)
+      vagrant_cloud (~> 3.1.0)
       wdm (~> 0.1.1)
       winrm (>= 2.3.6, < 3.0)
       winrm-elevated (>= 1.2.3, < 2.0)
@@ -107,7 +107,7 @@ GEM
     time (0.2.2)
       date
     timeout (0.4.0)
-    vagrant_cloud (3.0.5)
+    vagrant_cloud (3.1.0)
       excon (~> 0.73)
       log4r (~> 1.1.10)
       rexml (~> 3.2.5)
