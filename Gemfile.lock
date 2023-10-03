@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: d5f12fd7ec1e3d096b7c499c030b040e8c0039e7
+  revision: c8fc8b3ad2054110ea1f06d678abf58a98ff887f
   specs:
     vagrant (2.3.8.dev)
       bcrypt_pbkdf (~> 1.1)
@@ -44,7 +44,7 @@ GEM
     date (3.3.3)
     ed25519 (1.3.0)
     erubi (1.12.0)
-    excon (0.103.0)
+    excon (0.104.0)
     ffi (1.16.2)
     google-protobuf (3.24.3-x86_64-darwin)
     google-protobuf (3.24.3-x86_64-linux)
