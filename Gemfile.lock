@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: c8fc8b3ad2054110ea1f06d678abf58a98ff887f
+  revision: ba10fe9ee6f4c0d58deb51503c36c69b4d9442bb
   specs:
     vagrant (2.3.8.dev)
       bcrypt_pbkdf (~> 1.1)
@@ -45,9 +45,9 @@ GEM
     ed25519 (1.3.0)
     erubi (1.12.0)
     excon (0.104.0)
-    ffi (1.16.2)
-    google-protobuf (3.24.3-x86_64-darwin)
-    google-protobuf (3.24.3-x86_64-linux)
+    ffi (1.16.3)
+    google-protobuf (3.24.4-x86_64-darwin)
+    google-protobuf (3.24.4-x86_64-linux)
     googleapis-common-protos-types (1.9.0)
       google-protobuf (~> 3.18)
     grpc (1.56.2-x86_64-darwin)
@@ -76,7 +76,7 @@ GEM
       multi_json (~> 1.14)
     mime-types (3.5.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2023.0808)
+    mime-types-data (3.2023.1003)
     multi_json (1.15.0)
     net-ftp (0.2.0)
       net-protocol
