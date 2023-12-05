@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: 9b460ecedefa45a557b1c13c63449839819dc220
+  revision: ac6374cd11a51b6992a5dc981bf617db74b4ca7d
   specs:
     vagrant (2.4.1.dev)
       bcrypt_pbkdf (~> 1.1)
@@ -44,11 +44,11 @@ GEM
     date (3.3.4)
     ed25519 (1.3.0)
     erubi (1.12.0)
-    excon (0.104.0)
+    excon (0.105.0)
     ffi (1.16.3)
-    google-protobuf (3.25.0-x86_64-darwin)
-    google-protobuf (3.25.0-x86_64-linux)
-    googleapis-common-protos-types (1.10.0)
+    google-protobuf (3.25.1-x86_64-darwin)
+    google-protobuf (3.25.1-x86_64-linux)
+    googleapis-common-protos-types (1.11.0)
       google-protobuf (~> 3.18)
     grpc (1.56.2-x86_64-darwin)
       google-protobuf (~> 3.23)
