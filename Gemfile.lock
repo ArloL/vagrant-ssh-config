@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: b3c9f0d522ee3d8ef40afccf2ad8b129ea5a1966
+  revision: 55ec0d4391202e81d7f30ffc85fa94ee0d763f87
   specs:
     vagrant (2.4.1.dev)
       bcrypt_pbkdf (~> 1.1)
