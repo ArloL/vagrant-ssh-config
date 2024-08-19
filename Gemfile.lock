@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: 929d367b607240cc85e47349714d0a125309d9df
+  revision: 9df95a200280219ae5899db6eaa2e0eff4ad1a8e
   specs:
     vagrant (2.4.2.dev)
       base64 (~> 0.2.0)
