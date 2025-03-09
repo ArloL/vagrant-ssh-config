@@ -148,7 +148,7 @@ GEM
     time (0.4.1)
       date
     timeout (0.4.3)
-    uri (1.0.2)
+    uri (1.0.3)
     vagrant_cloud (3.1.2)
       excon (~> 1.0)
       log4r (~> 1.1)
