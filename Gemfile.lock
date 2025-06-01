@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: d466e50f4812c74ca930f1dbe1a025230655b20c
+  revision: 73db3ce45e946145f6b76d5d73156586381ecb14
   specs:
-    vagrant (2.4.6.dev)
+    vagrant (2.4.7.dev)
       base64 (~> 0.2.0)
       bcrypt_pbkdf (~> 1.1)
       childprocess (~> 5.1)
@@ -41,16 +41,16 @@ GEM
     base64 (0.2.0)
     bcrypt_pbkdf (1.1.1)
     bcrypt_pbkdf (1.1.1-x86_64-darwin)
-    bigdecimal (3.1.9)
+    bigdecimal (3.2.1)
     builder (3.3.0)
     childprocess (5.1.0)
       logger (~> 1.5)
     concurrent-ruby (1.3.5)
-    csv (3.3.4)
+    csv (3.3.5)
     date (3.4.1)
     ed25519 (1.3.0)
     erubi (1.13.1)
-    excon (1.2.5)
+    excon (1.2.7)
       logger
     faraday (2.13.1)
       faraday-net_http (>= 2.0, < 3.5)
@@ -72,7 +72,7 @@ GEM
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     ipaddr (1.2.7)
-    json (2.11.3)
+    json (2.12.2)
     jwt (2.10.1)
       base64
     listen (3.9.0)
@@ -87,7 +87,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2025.0507)
+    mime-types-data (3.2025.0527)
     multi_json (1.15.0)
     multi_xml (0.7.2)
       bigdecimal (~> 3.1)
@@ -106,15 +106,16 @@ GEM
     net-ssh (7.3.0)
     nori (2.7.1)
       bigdecimal
-    oauth2 (2.0.9)
-      faraday (>= 0.17.3, < 3.0)
-      jwt (>= 1.0, < 3.0)
+    oauth2 (2.0.12)
+      faraday (>= 0.17.3, < 4.0)
+      jwt (>= 1.0, < 4.0)
+      logger (~> 1.2)
       multi_xml (~> 0.5)
       rack (>= 1.2, < 4)
-      snaky_hash (~> 2.0)
-      version_gem (~> 1.1)
+      snaky_hash (~> 2.0, >= 2.0.3)
+      version_gem (>= 1.1.8, < 3)
     ostruct (0.6.1)
-    rack (3.1.14)
+    rack (3.1.15)
     rake (13.2.1)
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
@@ -125,9 +126,9 @@ GEM
     rubyntlm (0.6.5)
       base64
     rubyzip (2.3.2)
-    snaky_hash (2.0.1)
-      hashie
-      version_gem (~> 1.1, >= 1.1.1)
+    snaky_hash (2.0.3)
+      hashie (>= 0.1.0, < 6)
+      version_gem (>= 1.1.8, < 3)
     time (0.4.1)
       date
     timeout (0.4.3)
