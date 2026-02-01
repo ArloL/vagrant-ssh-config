@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: b0593b6a72ee8fd1975e0af4447600430d0f3999
+  revision: 5099cac68a03497a0882c5d5da2a79e9214562ce
   specs:
     vagrant (2.4.10.dev)
       base64 (~> 0.2.0)
@@ -75,7 +75,8 @@ GEM
     json (2.18.0)
     jwt (3.1.2)
       base64
-    listen (3.9.0)
+    listen (3.10.0)
+      logger
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     little-plugger (1.1.4)
@@ -87,9 +88,9 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2025.0924)
+    mime-types-data (3.2026.0127)
     multi_json (1.19.1)
-    multi_xml (0.8.0)
+    multi_xml (0.8.1)
       bigdecimal (>= 3.1, < 5)
     mutex_m (0.3.0)
     net-ftp (0.3.9)
