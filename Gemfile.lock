@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: 5099cac68a03497a0882c5d5da2a79e9214562ce
+  revision: 92e88862e72c93a0aadf8a49d6c1595b141a75e0
   specs:
     vagrant (2.4.10.dev)
       base64 (~> 0.2.0)
@@ -88,7 +88,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.0127)
+    mime-types-data (3.2026.0224)
     multi_json (1.19.1)
     multi_xml (0.8.1)
       bigdecimal (>= 3.1, < 5)
