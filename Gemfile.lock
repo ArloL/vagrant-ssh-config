@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/hashicorp/vagrant.git
-  revision: 0b7d460a450e0365d2975dbb0d0f0afda5104bca
+  revision: f9e2630d69a5e357963bba67dd2be8604ef2b82b
   specs:
     vagrant (2.4.10.dev)
       base64 (~> 0.2.0)
@@ -40,7 +40,7 @@ GEM
   specs:
     base64 (0.2.0)
     bcrypt_pbkdf (1.1.2)
-    bigdecimal (4.1.0)
+    bigdecimal (4.1.2)
     builder (3.3.0)
     childprocess (5.1.0)
       logger (~> 1.5)
@@ -71,8 +71,8 @@ GEM
       mutex_m
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
-    ipaddr (1.2.8)
-    json (2.19.3)
+    ipaddr (1.2.9)
+    json (2.19.4)
     jwt (3.1.2)
       base64
     listen (3.10.0)
@@ -88,8 +88,8 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.0331)
-    multi_json (1.19.1)
+    mime-types-data (3.2026.0414)
+    multi_json (1.20.1)
     multi_xml (0.8.1)
       bigdecimal (>= 3.1, < 5)
     mutex_m (0.3.0)
